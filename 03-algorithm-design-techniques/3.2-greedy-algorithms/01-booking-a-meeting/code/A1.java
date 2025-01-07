@@ -18,10 +18,10 @@ public class A1 {
         result.add(champion);
 
         while (!intervals.isEmpty()) {
-            var currentInterval = intervals.poll();
-            var currentIntervalLeftBoundary = currentInterval.get(0);
+            List<Integer> currentInterval = intervals.poll();
+            Integer currentIntervalLeftBoundary = currentInterval.get(0);
             assert champion != null;
-            var bestIntervalRightBoundary = champion.get(1);
+            Integer bestIntervalRightBoundary = champion.get(1);
 
             if (currentIntervalLeftBoundary > bestIntervalRightBoundary) {
                 champion = currentInterval;
