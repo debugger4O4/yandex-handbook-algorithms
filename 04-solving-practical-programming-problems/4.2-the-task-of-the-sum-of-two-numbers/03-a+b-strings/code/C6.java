@@ -7,6 +7,7 @@ public class C6 {
         int n = Integer.parseInt(scanner.nextLine());
         String a = scanner.nextLine();
         String b = scanner.nextLine();
+        scanner.close();
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < n; i++) {
             result.append(a.charAt(i));
