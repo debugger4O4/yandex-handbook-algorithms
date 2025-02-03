@@ -10,7 +10,7 @@
 Дана последовательность целых чисел `a1, ..., an`. Вычислите
 <br/>
 
-![img.png](img.png)
+![img.png](content/img.png)
 
 <br/>
 

@@ -2,7 +2,7 @@
 Дана последовательность неотрицательных целых чисел `a1, …,an`. Вычислите
 <br/>
 
-![img.png](img.png)
+![img.png](content/img.png)
 
 <br/>
 
@@ -15,7 +15,7 @@
 - Примеры
 <br/>
 
-![img_1.png](img_1.png)
+![img_1.png](content/img_1.png)
 
 <br/>
 

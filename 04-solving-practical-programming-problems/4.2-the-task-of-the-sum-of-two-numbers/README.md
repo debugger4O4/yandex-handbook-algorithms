@@ -7,7 +7,7 @@
 - Пример
 <br/>
 
-![img.png](img.png)
+![img.png](content/img.png)
 
 <br/>
 - Ограничение по времени (с): 1 секунда
