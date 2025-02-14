@@ -27,7 +27,6 @@ public class A11 {
 
         private final long Weight;
 
-
         private final double costByItem;
 
         public Spice(long Cost, long Weight) {
