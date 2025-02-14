@@ -25,17 +25,14 @@ public class A11 {
 
     public static class Spice implements Comparable<Spice> {
 
-        private final long Cost;
-
         private final long Weight;
 
 
         private final double costByItem;
 
-        public Spice(long cost, long weight) {
-            this.Cost = cost;
-            this.Weight = weight;
-            this.costByItem = (double) cost / weight;
+        public Spice(long Cost, long Weight) {
+            this.Weight = Weight;
+            this.costByItem = (double) Cost / Weight;
         }
 
         @Override
