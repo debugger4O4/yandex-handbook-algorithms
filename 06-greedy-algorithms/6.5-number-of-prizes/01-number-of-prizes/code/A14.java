@@ -8,7 +8,7 @@ public class A14 {
         scanner.close();
         int result = 0;
         for (int i = (int) Math.max(1, Math.pow(n, 0.5) - 2); i < n; i++) {
-            int x = (i * (i +1)) / 2;
+            int x = (i * (i + 1)) / 2;
             if (x > n) {
                 break;
             }
