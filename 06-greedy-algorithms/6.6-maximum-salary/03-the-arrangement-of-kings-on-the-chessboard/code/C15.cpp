@@ -11,9 +11,9 @@ int check(int n) {
 }
 
 int result(int r, int c) {
-    int ver = int(r / 3) + check(r);
-    int hor = int(c / 3) + check(c);
-    return (r * c) - (ver * hor);
+    int y = int(r / 3) + check(r);
+    int x = int(c / 3) + check(c);
+    return (r * c) - (y * x);
 }
 
 int main() {
