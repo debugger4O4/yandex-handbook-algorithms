@@ -1,4 +1,4 @@
-def many_bin_search(n, K, m, Q):
+def solution(n, K, m, Q):
     result = []
     for i in (Q):
         min = 0
@@ -21,5 +21,5 @@ K = list(map(int, input().split()))
 m = int(input())
 Q = list(map(int, input().split()))
 
-for i in many_bin_search(n, K, m, Q):
+for i in solution(n, K, m, Q):
     print(i)
