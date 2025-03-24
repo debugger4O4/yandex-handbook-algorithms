@@ -16,16 +16,16 @@ def partition(a, left, right):
         i += 1
         j -= 1
     return j
-def quicksort(a, left, right, k=1):
+def quicksort(a, left, right, k = 1):
     pivot = (left + right) // 2
     a[pivot][0] = k
     if left < right:
         q = partition(a, left, right)
         quicksort(a, left, q, k + 1)
-        quicksort(a, q+1, right, k)
+        quicksort(a, q + 1, right, k)
 n = int(input())
 a = [[0, m] for m in range(n, 0, -1)]
-quicksort(a, 0, n-1)
+quicksort(a, 0, n - 1)
 a.sort(key = lambda x: x[1])
 b = [i[0] for i in a]
 print(*b)
