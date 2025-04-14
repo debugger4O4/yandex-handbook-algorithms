@@ -9,9 +9,9 @@ public class A21 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int m = scanner.nextInt();
+        int money = scanner.nextInt();
         scanner.close();
-        System.out.println(change(m));
+        System.out.println(change(money));
     }
 
     public static int change(int money) {
