@@ -5,7 +5,6 @@ min_element = 0
 max_element = 1
 min_not_approved = 0
 
-# left walk search min left and max right
 for num in range(2, n):
     if arr[num] > arr[max_element] or (arr[num] - arr[min_not_approved] > arr[max_element] - arr[min_element]):
         if arr[max_element] < arr[min_element]:
@@ -20,7 +19,6 @@ for num in range(2, n):
 
 print(min_element + 1, max_element + 1)
 
-# right walk search max left and min right
 min_element = 1
 max_element =  0
 max_not_approved = 0
